@@ -5,4 +5,4 @@ React App that lets you look up + comment on Github users
 
 Done from an egghead tutorial by Tyler McGinnis.
 
-npm init, npm install, npm run start should do the trick
+npm init, npm install, npm run build should do the trick
