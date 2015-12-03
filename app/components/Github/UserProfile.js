@@ -18,7 +18,7 @@ class UserProfile extends React.Component{
           {bio.email && <li className="list-group-item">Email: {bio.email}</li>}
           {bio.company && <li className="list-group-item">Company: {bio.company}</li>}
           {bio.location && <li className="list-group-item">Location: {bio.location}</li>}
-          {bio.blog && <li className="list-group-item">Blog: <a href="{bio.blog}">{bio.blog}</a></li>}
+          {bio.blog && <li className="list-group-item">Blog: <a href={bio.blog}>{bio.blog}</a></li>}
         </ul>
       </div>
     )

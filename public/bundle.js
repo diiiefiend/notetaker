@@ -24750,7 +24750,7 @@
 	            "Blog: ",
 	            _react2["default"].createElement(
 	              "a",
-	              { href: "{bio.blog}" },
+	              { href: bio.blog },
 	              bio.blog
 	            )
 	          )
